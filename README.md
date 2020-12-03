@@ -1,5 +1,5 @@
-# advent-of-code-2019
-'tis the season to nerd out
+# advent-of-code-2020
+growth season
 
 ### GOALS:
 * elegant code
