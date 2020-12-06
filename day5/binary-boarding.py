@@ -1,4 +1,8 @@
 
+def get_boarding_passes():
+    with open("input.txt", 'r') as file:
+        return file.read().split('\n')[:-1]
+    
 def binary_search(s, lo, hi):
     for char in s:
         if char == "F" or char == "L":
@@ -7,15 +11,16 @@ def binary_search(s, lo, hi):
             lo += (hi - lo) // 2 + 1
     return lo if char == "F" or char == "L" else hi
 
+def bitwise_binary_search(l):
+    return [int(x.replace("F", "0").replace("B", "1").replace("L", "0").replace("R", "1"), base=2) for x in l]
+
+def get_seat_ids(l):
+    return [binary_search(s[:7], 0, 127) * 8 + binary_search(s[7:], 0, 7) for s in l]
+
 def puzzle1():
-    seat_ids = []
-    with open("input.txt", 'r') as file:
-        l = file.read().split('\n')[:-1]
-        for s in l:
-            row = binary_search(s[:7], 0, 127)
-            col = binary_search(s[7:], 0, 7)
-            seat_id = row * 8 + col
-            seat_ids.append(seat_id)
+    l = get_boarding_passes()
+    seat_ids = get_seat_ids(l)
+    # seat_ids = bitwise_binary_search(l)
     return seat_ids
 
 def puzzle2():
