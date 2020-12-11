@@ -21,7 +21,7 @@ growth season
 | 7 | [Handy Haversacks](https://adventofcode.com/2020/day/7) |  | ☆☆ |
 | 8 | [Handheld Halting](https://adventofcode.com/2020/day/8) | [08](day08/handheld-halting.py) | ★★ |
 | 9 | [Encoding Error](https://adventofcode.com/2020/day/9) | [09](day09/encoding-error.py) | ★★ |
-| 10 |  |  | ☆☆ |
+| 10 | [Adapter Array](https://adventofcode.com/2020/day/10) | [10](day10/adapter-array.py) | ★★ |
 | 11 |  |  | ☆☆ |
 | 12 |  |  | ☆☆ |
 | 13 |  |  | ☆☆ |
