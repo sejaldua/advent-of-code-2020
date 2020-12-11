@@ -18,8 +18,8 @@ growth season
 | 4 | [Password Processing](https://adventofcode.com/2020/day/4) | [04](day04/password-processing.py) | ★★ |
 | 5 | [Binary Boarding](https://adventofcode.com/2020/day/5) | [05](day05/binary-boarding.py) | ★★ |
 | 6 | [Custom Customs](https://adventofcode.com/2020/day/6) | [06](day06/custom-customs.py) | ★★ |
-| 7 |  |  | ☆☆ |
-| 8 |  |  | ☆☆ |
+| 7 | [Handy Haversacks](https://adventofcode.com/2020/day/7) |  | ☆☆ |
+| 8 | [Handheld Halting](https://adventofcode.com/2020/day/8) | [08](day08/handheld-halting.py) | ★★ |
 | 9 |  |  | ☆☆ |
 | 10 |  |  | ☆☆ |
 | 11 |  |  | ☆☆ |
